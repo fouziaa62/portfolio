@@ -3,6 +3,16 @@ body{
     background-color:  rgb(158, 158, 188);
     font-family: "Poppins", sans-serif;
 }
+#portfolio .card-title {
+    color: #1f7798;
+    font-size: 1.2rem;
+}
+#portfolio .btn-outline-secondary:hover {
+    background-color: #053141;
+}
+    #portfolio .card-text {
+        min-height: 120px;
+    }
 h1,
 h2 {
     font-family: "DM Serif Display", serif;
@@ -14,6 +24,7 @@ h2 {
 #portfolio {
     background-color: #dbdcde; 
 }
+
 #contact {
     background-color: white;
 }
@@ -24,4 +35,10 @@ h2 {
     background-position: 50% 70%;
     min-height: 500px;
     padding: 5% 7%;
+}
+@media screen and (min-width: 1200px) {
+    #portfolio .card-text{
+        min-height: auto;
+    }
+    
 }
